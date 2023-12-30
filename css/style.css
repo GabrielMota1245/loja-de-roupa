@@ -1,0 +1,111 @@
+*{
+    background-color: black;
+    color: white;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+
+section.main{
+    width: 100%;
+    min-height: 100%;
+    background-image: url('../img/moda.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    position: relative;
+    top: -60px;
+}
+
+.logo img{
+    width: 230px;
+}
+
+.menu a{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+    color:red;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: rgba(54, 13, 13, 0.4);
+}
+
+.btn{
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+   left: 0;
+   text-align: center;
+}
+
+.btn a{
+    display: inline-block;
+    padding: 8px 30px;
+    margin: 0 50px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+.container-single{
+    float: left;
+    width: 50%;
+}
+
+.container-single h2{
+    float: center;
+    
+}
+
+.footer{
+    float: left;
+    width: 50%;
+    background-clip: padding-box;
+    padding: 30px 20px;
+}  
+
+.input-container{
+    padding: 10px 10px;
+    width: 400px;
+    height: calc(100% + 30px);
+    top: -15px;
+    background-clip: padding-box;
+    border: 8px ;
+}
+
+.input-container span, p{
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    color: white;
+}
+
+
+   
+
+
+ 
